@@ -1,4 +1,4 @@
-# Yagr
+# YaGr
 
 Soy un  desarrollador web que tiene misión es ayudar a todas las personas que tengan la necesidad de un producto digital y quieran mostrarse de manera profesional en el mercado.
 
