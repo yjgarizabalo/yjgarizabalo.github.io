@@ -89,7 +89,7 @@ header {
     color: var(--title-color)
 }
 
-.logo {
+.logo img{
     width: 100px;
 }
 
@@ -409,4 +409,28 @@ header {
 .portfolio-box:hover .portfolio-overlay {
     top: 0;
     transition: 0.3s all ease 0s;
+}
+
+/* PROYECTOS */
+
+.projects-content {
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.projects-box {
+    padding: 20px 10px;
+    background: #dedddd;
+    border-radius: 0.4rem;
+    text-align: center;
+}
+
+.projects-box h2 {
+    font-size: 1.2rem;
+    font-weight:700;
+}
+.projects-box span {
+    font-size: 0.845rem
 }
