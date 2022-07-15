@@ -257,7 +257,7 @@ header {
     text-transform: uppercase;
     color: var(--title-color);
     text-align: center;
-    margin: 7.5rem 0 2rem 0;
+    margin: 13.5rem 0 4rem 0;
 }
 
 .about-content {
@@ -355,7 +355,7 @@ header {
 
 .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 2rem;
 }
 
@@ -367,4 +367,46 @@ header {
     overflow: hidden;
 }
 
+.portfolio-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
+.portfolio-overlay {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(234, 45%,16%,0.7);
+}
+
+.portfolio-overlay h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
+
+.portfolio-overlay .bx {
+    font-size: 24px;
+    padding: 10px;
+    background: var(--segundo-color);
+    color: var(--main-color);
+    border-radius: 4px;
+}
+
+.portfolio-overlay .bx:hover {
+    background: var(--tercer-color);
+    transition: 0.3s all linear;
+}
+.portfolio-box:hover .portfolio-overlay {
+    top: 0;
+    transition: 0.3s all ease 0s;
+}
