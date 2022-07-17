@@ -6,8 +6,8 @@ menu.onclick = () => {
 
 // SWIPER - MENU
 
-// var swiper = new Swiper(".reviews-content", {
-//     pagination: {
-//         el: ".swiper-pagination",
-//     },
-// });
+var swiper = new Swiper(".reviews-content", {
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});

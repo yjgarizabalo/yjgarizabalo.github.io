@@ -434,3 +434,78 @@ header {
 .projects-box span {
     font-size: 0.845rem
 }
+
+/* VALORACIONES */
+
+.reviews {
+    max-width: 750px;
+    margin: auto;
+    width: 100%;
+}
+
+.reviews-box {
+    max-width: 550px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3.5rem !important;
+}
+
+.reviews-box .bx {
+    font-size: 1.8rem;
+    color: var(--segundo-color);
+    margin: 0.5rem 0;
+}
+
+.reviews-box .reviews-text {
+    font-size: 0.893rem;
+    margin: 1rem 0;
+}
+
+.reviews-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews-profile h2 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: var(--segundo-color);
+    font-weight: 700;
+}
+
+.reviews-profile span {
+    font-size: 0.8rem;
+    margin: 0.5rem 0 0.7rem;
+}
+
+.reviews-box img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 4px;
+    border: 2px solid var(--segundo-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+.swiper-pagination-bullet {
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 0.2rem !important;
+    background: var(--tercer-color) !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 1.5rem !important;
+    background: var(--tercer-color) !important;
+    transition: 0.3s all ease;
+}
