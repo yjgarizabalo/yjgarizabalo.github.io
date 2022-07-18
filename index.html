@@ -47,7 +47,7 @@
 
 
     <!-- INICIO -->
-    <section class="home container=" home">
+    <section class="home container" id="home">
         <div class="home-content">
             <div class="home-img">
                 <img src="./assets/img/pp.jpg" alt="Yair Garizabalo Rodriguez">
@@ -271,6 +271,29 @@
         </div>
 
     </section>
+
+    <section class="contact container" id="contact">
+        <h2 class="heading">Conctacto</h2>
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" name="" id="" placeholder="Su Nombre" class="name" required>
+            <input type="email" name="" id="" placeholder="Correo Electronico" class="email" required>
+            <textarea name="" id="" cols="25" rows="10" placeholder="Ingresar comentario" class="message"
+                required></textarea>
+            <input type="submit" value="Enviar" class="send-btn">
+        </form>
+    </section>
+
+    <!-- EMAIL JS LINK -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('phRvPZceITNwxQlv9')
+    </script>
+
+    <!-- SWEETEALERT -->
+
+    <script src="./assets/js/sweetalert.min.js"></script>
 
     <!-- LINK DE SWIPER JS -->
     <script src="./assets/js/swiper-bundle.min.js"></script>
