@@ -62,3 +62,11 @@ function success() {
         icon: "success",
     });
 }
+
+// NAVBAR COLOR DE FONDO PAN
+
+let header = document.querySelector("header")
+
+window.addEventListener("scroll", () => {
+    header.classList.toggle("header-active", window.scrollY > 0);
+})

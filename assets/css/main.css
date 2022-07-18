@@ -77,6 +77,11 @@ header {
     z-index: 100;
 }
 
+.header-active {
+    background: var(--quinto-color);
+    transition: 0.4s;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -544,5 +549,36 @@ header {
 
 .contact-form .send-btn:hover {
     background: var(--tercer-color);
+    transition: 0.3s all linear;
+}
+
+/* FOOTER */
+
+.footer {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    row-gap: 1.4rem;
+    padding: 25px 0;
+}
+
+.footer p {
+    font-size: 0.8rem;
+}
+
+.footer-links {
+    display:flex;
+    align-items:center;
+    column-gap: 1rem;
+}
+
+.footer-links a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--segundo-color);
+}
+
+.footer-links a:hover {
+    color: var(--tercer-color);
     transition: 0.3s all linear;
 }
