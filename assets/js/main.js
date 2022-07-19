@@ -69,4 +69,16 @@ let header = document.querySelector("header")
 
 window.addEventListener("scroll", () => {
     header.classList.toggle("header-active", window.scrollY > 0);
-})
+});
+
+// SCROLL TOP
+let scrollTop = document.querySelector(".scroll-top")
+
+window.addEventListener("scroll", () => {
+    scrollTop.classList.toggle("scroll-active", window.scrollY > 400);
+});
+
+// OBTENER AÑO ACTUAL
+const fecha = new Date();
+let a_actual = fecha.getFullYear();
+document.getElementById("fecha").innerHTML = a_actual;

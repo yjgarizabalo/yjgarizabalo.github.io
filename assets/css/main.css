@@ -79,7 +79,7 @@ header {
 
 .header-active {
     background: var(--quinto-color);
-    transition: 0.4s;
+    transition: 0.4s all ease;
 }
 
 .nav {
@@ -573,7 +573,7 @@ header {
 }
 
 .footer-links a {
-    font-size: 1rem;
+    font-size: 0.893rem;
     font-weight: 400;
     color: var(--segundo-color);
 }
@@ -581,4 +581,30 @@ header {
 .footer-links a:hover {
     color: var(--tercer-color);
     transition: 0.3s all linear;
+}
+
+/* SCROLL TOP */
+
+.scroll-top {
+    position: fixed;
+    bottom: -100%;
+    right: 1.5rem;
+}
+
+.scroll-top .bx {
+    padding: 8px;
+    font-size: 1.2rem;
+    color: var(--body-color);
+    background: var(--segundo-color);
+    border-radius: 0.2rem;
+}
+
+.scroll-top .bx:hover {
+    background: var(--tercer-color);
+    transition: 0.3 all ease;
+}
+
+.scroll-active {
+    bottom: 2rem;
+    transition: 0.3s;
 }
