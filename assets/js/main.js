@@ -1,7 +1,14 @@
 let menu = document.querySelector('.menu-icon');
+let navbar = document.querySelector('.navbar');
 
 menu.onclick = () => {
+    navbar.classList.toggle('open-menu')
     menu.classList.toggle("move")
+}
+
+window.onscroll = () => {
+    navabar.classList.remove('open-menu');
+    menu.classList.remove('move');
 }
 
 // SWIPER - MENU
@@ -82,3 +89,4 @@ window.addEventListener("scroll", () => {
 const fecha = new Date();
 let a_actual = fecha.getFullYear();
 document.getElementById("fecha").innerHTML = a_actual;
+
