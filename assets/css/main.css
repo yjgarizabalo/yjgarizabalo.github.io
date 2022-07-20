@@ -380,7 +380,6 @@ header {
     height: 300px;
     border-radius: 0.8rem;
     overflow: hidden;
-    z-index: -2;
 }
 
 .portfolio-img {
@@ -599,6 +598,7 @@ header {
     position: fixed;
     bottom: -100%;
     right: 1.5rem;
+    z-index: 102;
 }
 
 .scroll-top .bx {
@@ -649,6 +649,11 @@ header {
 }
 
 @media (max-width: 775px) {
+    .heading {
+        margin: 7rem 0 4rem 0;
+    }
+
+
     .logo img {
         width: 95px;
     }
@@ -712,6 +717,10 @@ header {
 }
 
 @media (max-width: 635px) {
+    .heading {
+        margin: 7rem 0 4rem 0;
+    }
+    
     .about-content {
         grid-template-columns: 1fr;
     }
