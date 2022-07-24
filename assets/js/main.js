@@ -6,7 +6,7 @@ menu.onclick = () => {
     menu.classList.toggle("move")
 }
 
-window.onscroll = () => {
+navbar.onscroll = () => {
     navabar.classList.remove('open-menu');
     menu.classList.remove('move');
 }
