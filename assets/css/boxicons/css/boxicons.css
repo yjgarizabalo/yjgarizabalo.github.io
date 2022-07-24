@@ -520,21 +520,12 @@
 .bx-code-alt:before {
   content: "\ea69";
 }
-
-.bx-world:before {
-  content: "\ec8b";
-}
-
-
-.bx-code-curly:before {
-  content: "\ea6b";
-}
-
-.bx-envelope:before {
-  content: "\eac1";
-}
+.bx-world:before {content: "\ec8b";}
+.bx-code-curly:before {content: "\ea6b";}
+.bx-envelope:before {content: "\eac1";}
 .bx-envelope-open:before {content: "\eac2";}
 .bxl-messenger:before {content: "\e957";}
 .bx-up-arrow-alt:before{content:"\ec5d";}
+.bx-link-alt:before{content:"\eb3d"}
 
 /* USADOS */
